@@ -28,9 +28,7 @@ if uploaded_file is not None:
 else:
     st.warning("Please Upload Your CSV File")
 
-# ACCESS secrtes.toml file
-user_name=st.secrets["USER_NAME"]
-print(user_name)
+
 
 # Dashboard for DEcision MAking 
 st.header("Step 2: Layer 2: Key Performance Indicators ")
